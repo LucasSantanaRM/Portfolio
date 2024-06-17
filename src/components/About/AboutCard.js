@@ -8,16 +8,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          Olá a todos, Eu sou <span className="purple">Lucas Santana </span>
-            from <span className="purple"> Rondonia, Brasil.</span>
+            Olá, Eu sou <span className="purple">Lucas Santana </span>
+            from <span className="purple"> Rondonia, brasil.</span>
             <br />
             Atualmente trabalho como Analista de redes na Uni Internet.
             <br />
             Estou cursando engenharia de software na faculdade Unopar.
-          
             <br />
             <br />
             Além da codificação, algumas outras atividades que adoro fazer!
+          </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Testes com inteligencia artificial
@@ -31,9 +31,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-          “Mesmo sem saber muito, o esforço em programar é o primeiro passo para o sucesso.”{" "}
+            "Mesmo sem saber muito, o esforço em programar é o primeiro passo para o sucesso.”!"{" "}
           </p>
-          <footer className="blockquote-footer">Lucas</footer>
+          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
