@@ -151,7 +151,7 @@ button:focus {
   }
 }
 .navbar-brand {
-  color: rgb(83, 130, 237) !important;
+  color: rgb(64, 1, 115) !important;
 }
 
 .logo {
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5be3f5;
+  background: #430496;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -593,9 +593,10 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .about-img {
     padding-top: 0 !important;
+    background-color: transparent; /* ou rgba(0, 0, 0, 0) */
   }
 }
 /* --------- */
