@@ -742,3 +742,67 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.home-main.svg {
+  position: relative;
+  animation: float 2s infinite;
+}
+
+@keyframes float {
+  0.5% {
+    transform: translate(0, 0);
+  }
+  0.9% {
+    transform: translate(0, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+  
+}
+
+
+
+
+
+
+.tooltip {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #f9f9f9 transparent transparent transparent;
+}
+
+.tooltip.show {
+  display: block;
+}
+
+.tooltip-top {
+  top: 0;
+}
+
+.tooltip-bottom {
+  bottom: 0;
+}
+
+.tooltip-left {
+  left: 0;
+}
+
+.tooltip-right {
+  right: 0;
+}

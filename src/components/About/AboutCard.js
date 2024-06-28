@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Olá, Eu sou <span className="purple">Lucas Santana </span>
-            from <span className="purple"> Rondonia, brasil.</span>
+            de <span className="purple"> Rondonia, brasil.</span>
             <br />
             Atualmente trabalho como Analista de redes na Uni Internet.
             <br />
@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Mesmo sem saber muito, o esforço em programar é o primeiro passo para o sucesso.”!"{" "}
+          “A persistência é a chave para o sucesso.”!"{" "}
           </p>
           <footer className="blockquote-footer">Santana</footer>
         </blockquote>
