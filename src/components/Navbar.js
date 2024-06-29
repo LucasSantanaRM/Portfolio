@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://lblog-bx16.vercel.app/blog"
+                href="https://blog.lmsantana.com.br"
                 target="_blank"
                 rel="noreferrer"
               >
